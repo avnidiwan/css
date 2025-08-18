@@ -1,0 +1,89 @@
+#frame{
+    height:540px; 
+    display:flex;
+    align-items:flex-end;
+
+}
+#road{
+    height:150px;
+    background-color:black;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    position:relative;
+    z-index:0;
+   
+    
+}
+.dividor{
+    height:10px;
+    width:100px;
+    background-color:white;
+   
+}
+#car{
+    height:300px; 
+    width:350px;   
+    /* background-color:bisque; */
+    background-image: url("car.png");
+    background-size:cover;
+    position:absolute;
+    left:0;
+    bottom:80px;
+    z-index:1;
+
+    animation-name:carRun;
+    animation-duration:5s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes carRun {
+  0% {
+    transform: translateX(0px) rotate(0deg);
+  }
+  49% {
+    transform: translateX(100vw) rotate(0deg);
+  }
+  50% {
+    transform: translateX(100vw) rotateY(180deg);
+  }
+  100% {
+    transform: translateX(0px) rotateY(180deg);
+  }
+}
+
+
+
+
+#ball{
+        height:120px;
+        width:120px;
+        margin:10px auto;
+        border-radius:50%;
+        background:linear-gradient(rgb(245, 231, 245),rgb(143, 120, 160)); 
+        border:2px solid black;
+        animation-name:kuchNahi;
+    animation-duration:900ms;
+    animation-timing-function:ease-in;
+    
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes kuchNahi{
+    0%
+    {
+        transform:translateY(0px);
+       
+    }
+    
+    100%
+    {
+        transform:translateY(80vh);
+        
+    }
+
+}
