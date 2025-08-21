@@ -2,6 +2,7 @@
     height:540px; 
     display:flex;
     align-items:flex-end;
+    background-color:rgb(223, 235, 240);
 
 }
 #road{
@@ -54,9 +55,61 @@
   }
 }
 
+.cloud{
+    background-image:url("cloud.png");
+    background-size:auto 100%;
+    position:absolute; 
+    z-index:2;
+    animation-name:cloudMove;
+    animation-duration:10s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#c1{
+    height:300px;
+    width:300px;
+    left:30px;
+    bottom:300px;
+}
+#c2{
+    height:200px;
+    width:200px;
+    left:400px;
+    bottom:380px;
+}
+
+#c3{
+    height:300px;
+    width:300px;
+    left:700px;
+    bottom:300px;
+}
+
+#c4{
+    height:200px;
+    width:200px;
+    left:1050px;
+    bottom:380px;
+}
+ @keyframes cloudMove {
+    0% {
+      opesity: 0.6;
+        transform: translateX(0px) scale(1);
+
+    }
+    50% {
+      opesity:0.2;
+        transform: translateX(4vw) scale(1.10);
+    }
+    100% {
+      opesity: 0.8;
+        transform: translateX(-2vw) scale(1);
+    }
+  }
 
 
-
+  
 #ball{
         height:120px;
         width:120px;
@@ -87,3 +140,4 @@
     }
 
 }
+

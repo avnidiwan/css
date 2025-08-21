@@ -1,0 +1,58 @@
+.outer{
+  display:flex;
+  justify-content: space-around;
+}
+.box{
+  height:200px;
+  width:300px;
+}
+ #b1{
+  background:linear-gradient(rgb(239, 91, 91), yellow);
+ }
+ #b2{
+  background:linear-gradient(to right, rgb(55, 138, 226), rgb(188, 238, 242))
+ }
+#b3{
+  background:linear-gradient(45deg, rgb(242, 228, 231),rgb(230, 113, 132));
+}
+#b4{
+  background: repeating-linear-gradient(
+    45deg,
+    rgb(86, 127, 120) 0px,
+    rgb(86, 127, 120) 20px,
+    rgb(225, 240, 250) 20px,
+    rgb(225, 240, 250) 40px
+  );
+}
+#b5{
+  background:radial-gradient( rgb(239, 91, 91), yellow);
+}
+#b6{
+  background:radial-gradient( rgb(55, 138, 226), rgb(188, 238, 242))
+}
+#b7{
+  background:radial-gradient( rgb(242, 228, 231),rgb(230, 113, 132));
+}
+#b8{
+  background: repeating-radial-gradient(
+    rgb(86, 127, 120) 0px,
+    rgb(86, 127, 120) 20px,
+    rgb(225, 240, 250) 20px,
+    rgb(225, 240, 250) 40px
+  );
+}
+#b9{
+  background:conic-gradient(rgb(239, 91, 91), yellow)
+}
+#b10{
+  background:conic-gradient(rgb(245, 98, 98),rgb(239, 229, 96),rgb(96, 236, 127),rgb(92, 202, 230),rgb(92, 92, 234),rgb(182, 91, 234),rgb(242, 99, 149))
+}
+#b11{
+  background:conic-gradient(from 180deg, rgb(242, 228, 231),rgb(230, 113, 132))
+}
+#b12{
+  background:repeating-conic-gradient(
+    rgb(86, 127, 120) 0deg 20deg,
+    rgb(225, 240, 250) 20deg 40deg
+  )
+}
