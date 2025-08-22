@@ -35,6 +35,15 @@
 #size2{
     font-size: 18px;
 }
+
+#logo:hover, #location:hover, #lang:hover, #signin:hover, #return:hover, #cart:hover{
+    border:1px solid white;
+    cursor: pointer;
+}
+#navBar2 span:hover{
+    border:1px solid white;
+}
+
 #navBar2{
     height:40px;
     width:100%;
@@ -44,12 +53,18 @@
     justify-content:space-around;
     align-items:center;
 }
-a{
+#navBar2 span{
+    display:flex;
+    height:38px;
+    align-items:center;
+}
+ #navBar2 a{
     text-decoration:none;
     color:white;
 }
 #bg{
     height:1200px;
+    width:100%;
     background:linear-gradient(to bottom,#80a5d9,#cfcfd0,#e1dfdf,#e6e6e7);
     
 }
@@ -78,6 +93,7 @@ a{
 }
 .itemRow{
     height:400px;
+    
     margin: 0px 20px 0px 20px;
     display: flex;
     justify-content: space-between;
@@ -88,7 +104,7 @@ a{
     width:265px;
     display:flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content:center;
     background-color: white;
     padding:10px;
 
@@ -210,14 +226,83 @@ a{
     flex-direction: column;
 }
 #f1{
-    height:30px;
-    width:1200px;
-    background-color: #232f3e;
+    height:40px;
+    width:100%;
+    background-color: #335f86;
+    color:white;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 #f2{
+    height:500px;
+    width:100%;
     display:flex;
-    justify-content:center;
+    justify-content:space-evenly;
+    background-color: #1f3a51;   
+}
+.f2txt{
+    margin-top:50px;
+    padding:10px;
+}
+#f2 a{
+    color:white;
+    text-decoration: none;
+}
+#f2 a:hover{
+    text-decoration: underline;
+}
+#f2 text{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+
+#f3{
+background-color: #232f3e;
+width:100%;
+}
+
+.f3-2{
+    display:flex;
+    color:white;
+    justify-content:flex-start; 
+}
+.f3-2 text:hover, a:hover{
+    text-decoration:underline;
+}
+.f3txt{
+    margin-top:30px;
+    margin-left:100px; 
+    width:130px;
+    font-size:12px;
+    font-weight: lighter;
+}
+
+.font3{
+    font-size: 15px;
+}
+
+
+#f3-3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    color:white;
+    font-size: 13px;
+}
+#f3-4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 13px;
+}
+#f3 a{
+    color:white;
+    text-decoration: none;
+}
+#f3 a:hover{
+    text-decoration: underline;
 }
