@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    border:border-box;
+    
+}
+
 #navBar1{
     height:60px;
     width:100%;
@@ -12,22 +18,33 @@
     position:sticky;
     top:0;
 }
+
 #searchbox{
     display:flex;
-    justify-content: center;
-    width:500px; 
+    justify-content: flex-start;
+    width:550px; 
     height:40px
 }
 #dropdown{
     width:40px; height:40px;
     background-color: #f2f2f2;
+    border:none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+    text-align: center;
+    font-size: 14px;
 }
 #input{
-    width:400px; height:40px;
+    width:100%; height:40px;
+    border:none;
+    font-size: 15px;
 }
 #searchicon{
     width:50px; height:40px;
-    background-color:#fac16b;
+    background-color:#febd69;
+    border:none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 #size1{
     font-size: 12px;
@@ -72,7 +89,9 @@
     height:300px;
     display:flex;
     position: relative;
-    margin: 0px 20px 0px 20px;
+    
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img25/Media/PC_Hero_3000x1200_Asin-toys-2x._CB547414496_.jpg");
+    background-size:cover;
 }
 #leftarrow{
     position: absolute;
@@ -120,6 +139,9 @@
     width:300px;
     font-size: 15px;
     color:blue;
+}
+.par3:hover{
+    color:#0f1111;
 }
 .par2{
     height:300px;
@@ -208,6 +230,10 @@
     font-size:15px;
     color:blue;
 }
+.h2:hover{
+    color:#0f1111;
+    text-decoration: underline;
+}
 
 #end{
     display:flex;
@@ -228,7 +254,7 @@
 #f1{
     height:40px;
     width:100%;
-    background-color: #335f86;
+    background-color: #37475a;
     color:white;
     display:flex;
     justify-content: center;
@@ -239,7 +265,7 @@
     width:100%;
     display:flex;
     justify-content:space-evenly;
-    background-color: #1f3a51;   
+    background-color: #232f3e;   
 }
 .f2txt{
     margin-top:50px;
@@ -259,7 +285,7 @@
 }
 
 #f3{
-background-color: #232f3e;
+background-color: #131a22;
 width:100%;
 }
 
