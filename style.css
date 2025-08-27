@@ -1,138 +1,112 @@
-h1{
-  FONT-SIZE:50PX;
-  text-align:center;
-  text-decoration:underline;
-  text-decoration-style: double;
-  font-weight:bolder;
-
+#div1{
+    height:55px;
+    background-color:black;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
 }
-
-#outer{
-  height:800px;
-  width:800px;
-  margin-left: 250px;
-  display:flex;
-  flex-direction:row;
-  background-color:rgb(252, 252, 252);
-  /* padding:100px; */
-  justify-content:space-between;
+#div2{
+    height:40px;
+    background-color:rgb(27, 27, 55);
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
 }
-#i1{
-  height:800px;
-  width:250px;
-  justify-content:left;
-  /* background-color:rgb(106, 164, 214); */
-  display:flex;
-  flex-direction:column;
-  justify-content:space-evenly;
+#span1{
+    color:white;
+    display:flex;
+    flex-direction:row;
+    align-self:flex-start;
+    /* align-content: center; */
 }
-#i2{
-  height:800px;
-  width:250px;
-  justify-content:center;
-  display:flex;
-  flex-direction:column;
-  justify-content:space-evenly
-  /* background-color:rgb(106, 164, 214); */
+#span2{
+    color:white;
+    display:flex;
+    flex-direction:row;
 }
-#i3{
-  height:800px;
-  width:250px;
-  justify-content:right;
-  display:flex;
-  flex-direction:column;
-  justify-content:space-evenly;
-  /* background-color:rgb(106, 164, 214); */
-}
-.d1{
-  height:250px;
-  width:250px;
-  /* margin:20px 0px 20px 0px; */
-justify-content:flex-start;
-/* background-image:url("https://images.pexels.com/photos/31318027/pexels-photo-31318027/free-photo-of-blooming-flower-field-in-rural-thailand-landscape.jpeg?auto=compress&cs=tinysrgb&w=600");
-background-size:cover; */
-/* background-color:rgb(106, 164, 214); */
-display:flex;
-flex-direction:column;
-justify-content: flex-end;
-
-    background: linear-gradient(to bottom, #ffffff, #929191); /* White to Light Gray to Dark Gray */
-    /* transition:  2s ease-in-out; Smooth transition */
-
-}
-.d2{
-  height:250px;
-  width:250px;
-  /* margin:20px 0px 20px 0px; */
- justify-content: center;
-  /* background-color:rgb(106, 164, 214); */
-  display:flex;
-flex-direction:column;
-justify-content: flex-end;
- background: linear-gradient(to bottom, #c7c6c6,#5c5c5c);
-}
-.d3{
-  height:250px;
-  width:250px;
-  /* margin:20px 0px 20px 0px; */
-  justify-content:flex-end;
-  /* background-color:rgb(106, 164, 214); */
-  display:flex;
-flex-direction:column;
-justify-content: flex-end;
-background: linear-gradient(to bottom, #979797, #313131);
-}
-#D1{
-  height:115px;
-  width:250px;
-  justify-content: flex-start;
-  /* background-color:rgb(106, 164, 214); */
-  background: linear-gradient(to bottom, #fbfafa, #d0cfcf);
-  
-}
-#D2{
-  height:250px;
-  width:250px;
-  /* background-color:rgb(106, 164, 214); */
-  display:flex;
-flex-direction:column;
-justify-content: flex-end;
-background: linear-gradient(to bottom, #e3e1e1, #575757);
-}
-#D3{
-  height:250px;
-  width:250px;
-  /* background-color:rgb(106, 164, 214); */
-  display:flex;
-flex-direction:column;
-justify-content: flex-end;
-background: linear-gradient(to bottom, #8a8989, #464646);
-}
-#D4{
-  height:115px;
-  width:250px;
-  justify-content: flex-end;
-  /* background-color:rgb(106, 164, 214); */
-  background: linear-gradient(to bottom, #767676, #101010);
+#span3{
+    color:white;
+    align-self: center;
+    display:flex;
+    flex-direction:row;
+    align-content:center; 
 }
 a{
-  text-decoration:none;
+    color:white;
+    text-decoration:none;
 }
 text{
-  justify-content:flex-end;
-    color:black;
-    font-size:30px;
+    color:white;
 }
- .backgroundForSlides {
-    /* background-image: url("https://img.freepik.com/free-photo/abstract-blue-geometric-shapes-background_24972-1842.jpg?ga=GA1.1.288537252.1741439925&semt=ais_hybrid&w=740"); */
-    background-image: url("https://img.freepik.com/free-photo/abstract-blue-geometric-shapes-background_24972-1841.jpg?ga=GA1.1.288537252.1741439925&semt=ais_hybrid&w=740"); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; /* Full height */
-    width: 100%;
+#div3{
+    height: 250px;
+    background-color:azure;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between
     
-    }
-  .d1, .d2, .d3, #D1, #D2, #D3, #D4{
-    border:2px solid black;
-  }
+}
+#left{
+    height:250px; 
+    width:100px; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#right{
+    height:250px; 
+    width:100px; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#div4{
+    height:500px;
+    background-color:azure ;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.span1{
+    height:500px;
+    width:280px;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+}
+.rect1{
+    height:100px;
+    width:260px;
+    /* background-color:gray; */
+}
+.rect2{
+    height:50px;
+    width:260px;
+    /* background-color:gray; */
+}
+.rect3{
+    height:150px;
+    width:260px;
+    /* background-color:rgb(68, 67, 67); */
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+}
+.rect4{
+    height:150px;
+    width:260px;
+    /* background-color:rgb(68, 67, 67); */
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.sq{
+    height:120px;
+    width:120px;
+    /* background-color:rgb(101, 100, 100); */
+}
