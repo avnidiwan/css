@@ -1,0 +1,138 @@
+h1{
+  FONT-SIZE:50PX;
+  text-align:center;
+  text-decoration:underline;
+  text-decoration-style: double;
+  font-weight:bolder;
+
+}
+
+#outer{
+  height:800px;
+  width:800px;
+  margin-left: 250px;
+  display:flex;
+  flex-direction:row;
+  background-color:rgb(252, 252, 252);
+  /* padding:100px; */
+  justify-content:space-between;
+}
+#i1{
+  height:800px;
+  width:250px;
+  justify-content:left;
+  /* background-color:rgb(106, 164, 214); */
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+}
+#i2{
+  height:800px;
+  width:250px;
+  justify-content:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly
+  /* background-color:rgb(106, 164, 214); */
+}
+#i3{
+  height:800px;
+  width:250px;
+  justify-content:right;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  /* background-color:rgb(106, 164, 214); */
+}
+.d1{
+  height:250px;
+  width:250px;
+  /* margin:20px 0px 20px 0px; */
+justify-content:flex-start;
+/* background-image:url("https://images.pexels.com/photos/31318027/pexels-photo-31318027/free-photo-of-blooming-flower-field-in-rural-thailand-landscape.jpeg?auto=compress&cs=tinysrgb&w=600");
+background-size:cover; */
+/* background-color:rgb(106, 164, 214); */
+display:flex;
+flex-direction:column;
+justify-content: flex-end;
+
+    background: linear-gradient(to bottom, #ffffff, #929191); /* White to Light Gray to Dark Gray */
+    /* transition:  2s ease-in-out; Smooth transition */
+
+}
+.d2{
+  height:250px;
+  width:250px;
+  /* margin:20px 0px 20px 0px; */
+ justify-content: center;
+  /* background-color:rgb(106, 164, 214); */
+  display:flex;
+flex-direction:column;
+justify-content: flex-end;
+ background: linear-gradient(to bottom, #c7c6c6,#5c5c5c);
+}
+.d3{
+  height:250px;
+  width:250px;
+  /* margin:20px 0px 20px 0px; */
+  justify-content:flex-end;
+  /* background-color:rgb(106, 164, 214); */
+  display:flex;
+flex-direction:column;
+justify-content: flex-end;
+background: linear-gradient(to bottom, #979797, #313131);
+}
+#D1{
+  height:115px;
+  width:250px;
+  justify-content: flex-start;
+  /* background-color:rgb(106, 164, 214); */
+  background: linear-gradient(to bottom, #fbfafa, #d0cfcf);
+  
+}
+#D2{
+  height:250px;
+  width:250px;
+  /* background-color:rgb(106, 164, 214); */
+  display:flex;
+flex-direction:column;
+justify-content: flex-end;
+background: linear-gradient(to bottom, #e3e1e1, #575757);
+}
+#D3{
+  height:250px;
+  width:250px;
+  /* background-color:rgb(106, 164, 214); */
+  display:flex;
+flex-direction:column;
+justify-content: flex-end;
+background: linear-gradient(to bottom, #8a8989, #464646);
+}
+#D4{
+  height:115px;
+  width:250px;
+  justify-content: flex-end;
+  /* background-color:rgb(106, 164, 214); */
+  background: linear-gradient(to bottom, #767676, #101010);
+}
+a{
+  text-decoration:none;
+}
+text{
+  justify-content:flex-end;
+    color:black;
+    font-size:30px;
+}
+ .backgroundForSlides {
+    /* background-image: url("https://img.freepik.com/free-photo/abstract-blue-geometric-shapes-background_24972-1842.jpg?ga=GA1.1.288537252.1741439925&semt=ais_hybrid&w=740"); */
+    background-image: url("https://img.freepik.com/free-photo/abstract-blue-geometric-shapes-background_24972-1841.jpg?ga=GA1.1.288537252.1741439925&semt=ais_hybrid&w=740"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full height */
+    width: 100%;
+    
+    }
+  .d1, .d2, .d3, #D1, #D2, #D3, #D4{
+    border:2px solid black;
+  }
