@@ -1,0 +1,60 @@
+#outer{
+    display:flex;
+    height:1400px;
+    width:1200px;
+    background-color: rgb(209, 209, 158);
+    flex-direction:column;
+    margin: 20px 20px 20px 20px;   
+}
+
+#heading{ 
+   
+    text-align: center;
+    width: 1000px;
+    height:70px;
+    margin:50px 100px 0px 100px;
+    /* padding: 20px 20px 20px 20px; */
+    color:white;
+    background-color:rgb(10, 10, 56);
+    font-size:50px;
+}
+
+#outer2{
+    display:flex;
+    height:900px;
+    flex-direction:row;
+    justify-content:space-between;
+
+} 
+
+#i1{ 
+    height:400px;
+    width:450px;
+    background-image:url("https://img.freepik.com/free-photo/sausage-dough-sprinkled-with-sesame-seeds-wooden-background-rustic-style_2829-11857.jpg?ga=GA1.1.288537252.1741439925&semt=ais_hybrid");
+    background-size:auto;
+}
+
+#inner1{
+    width:400px;
+    font-size:19px;
+    margin-left:100px;
+    margin-top:50px;
+    align-items:flex-start;
+}
+
+#inner2{
+    font-size:19px;
+    width:500px;
+    margin-right:100px;
+    /* margin-left:580px; */
+    margin-bottom:100px;
+    margin-top:50px;
+    align-items:flex-end;
+}
+
+#i2{
+    height:350px;
+    width:450px;
+    background-image:url("https://img.freepik.com/free-photo/set-rolls-plate_181624-33046.jpg?ga=GA1.1.288537252.1741439925&semt=ais_hybrid");
+    background-size:cover;
+}

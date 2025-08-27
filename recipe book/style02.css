@@ -1,0 +1,60 @@
+#outer{
+    display:flex;
+    height:1200px;
+    width:1200px;
+    background-color: rgb(209, 209, 158);
+    flex-direction:column;
+    margin: 20px 20px 20px 20px;   
+}
+
+#heading{ 
+   
+    text-align: center;
+    width: 1000px;
+    height:70px;
+    margin:50px 100px 0px 100px;
+    /* padding: 20px 20px 20px 20px; */
+    color:white;
+    background-color:rgb(10, 10, 56);
+    font-size:50px;
+}
+
+#outer2{
+    display:flex;
+    height:900px;
+    flex-direction:row;
+    justify-content:space-between;
+
+}
+
+#i1{
+    height:600px;
+    width:450px;
+    background-image:url("https://img.freepik.com/free-photo/strawberry-sundae_1339-2873.jpg?semt=ais_hybrid");
+    background-size:auto;
+}
+
+#inner1{
+    width:400px;
+    font-size:19px;
+    margin-left:100px;
+    margin-top:50px;
+    align-items:flex-start;
+}
+
+#inner2{
+    font-size:19px;
+    width:400px;
+    margin-right:100px;
+    /* margin-left:580px; */
+    margin-bottom:100px;
+    margin-top:50px;
+    align-items:flex-end;
+}
+
+#i2{
+    height:620px;
+    width:450px;
+    background-image:url("https://img.freepik.com/free-photo/putting-honey-strawberry-juices_198174-7.jpg?semt=ais_hybrid");
+    background-size:auto;
+}
