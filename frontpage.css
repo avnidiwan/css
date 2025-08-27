@@ -1,0 +1,201 @@
+#outer1{
+    display:flex;
+    flex-direction:column;
+    /* height:50px; */
+    width:1250;
+   
+}
+/* #outer1 text{
+    opacity:1;
+    
+} */
+/* #text:hover{
+transition:all 8s ease-in 0s;
+font-size:50px;
+} */
+#i1{
+    text-align:center;
+    height:100px;
+    width:1250px;
+    background-color:white;
+    color:rgb(102, 153, 153);
+    font-size:100px;
+}
+#i2{
+    
+    display:flex;
+    font-size:20px;
+    justify-content:space-around;
+    height:30px;
+    width: 1250px;
+    color:rgb(102, 153, 153);
+}
+span:hover{
+    font-size:28px;
+}
+/* #i3{
+    display:flex;
+    filter: blur(2px);
+}
+#i4{
+    display:flex;
+    filter: blur(2px); 
+}*/
+
+#s1{
+    height:250px;
+    width:300px;
+    background-image: url("https://img.freepik.com/free-photo/front-view-cooked-mushrooms-with-dough-pasta-dark-table-meal-food-dinner_140725-78982.jpg?ga=GA1.1.288537252.1741439925&semt=ais_hybrid");
+    background-size:cover;
+}
+#s2{
+    height:250px;
+    width:300px;
+    background-image: url("https://img.freepik.com/free-photo/top-view-fried-potatoes-with-seasonings-bread-loafs-different-vegetables-dark-surface_140725-115305.jpg?ga=GA1.1.288537252.1741439925&semt=ais_hybrid");
+    background-size:cover;
+}
+#s3{
+    height:250px;
+    width:350px;
+    background-image: url("https://img.freepik.com/free-photo/top-view-yummy-cutlets-with-onion-rings-grey-background-dish-meat-meal-photo_140725-47087.jpg?ga=GA1.1.288537252.1741439925&semt=ais_hybrid");
+    background-size:cover;
+}
+#s4{
+    height:250px;
+    width:300px;
+    background-image: url("https://img.freepik.com/free-photo/top-view-fresh-red-dogwoods-with-seasonings-cooked-squashes-grey-surface_140725-90510.jpg?ga=GA1.1.288537252.1741439925&semt=ais_hybrid");
+    background-size:cover;
+}
+/* span{
+    border:2px solid rgb(60, 104, 104);
+} */
+#search{
+    height:30px;
+    color:rgb(102, 153, 153);
+    width:400px;
+    border:2px solid black;
+    border-radius:20px;
+}
+hr{
+    color:rgb(42, 62, 62);
+}
+#s5{
+    height:250px;
+    width:300px;
+    background-image: url("https://img.freepik.com/free-photo/top-view-baked-potatoes-with-minced-meat-greens-inside-plate-dark-blue-desk_140725-49961.jpg?ga=GA1.1.288537252.1741439925&semt=ais_hybrid");
+    background-size:cover;
+}
+#s6{
+    height:250px;
+    width:300px;
+    background-image: url("https://img.freepik.com/premium-photo/breaded-lamb-chops-served-with-tomato-red-onion-green-pepper-salad-black-plate-wooden-table-with-ingredients-surface-landscape-view_268847-1344.jpg?ga=GA1.1.288537252.1741439925&semt=ais_hybrid");
+    background-size:cover;
+}
+#s7{
+    height:250px;
+    width:350px;
+    background-image: url("https://img.freepik.com/free-photo/side-view-eggplant-roll-grilled-eggplant-with-walnut-pomegranate-cucumber-lettuce-plate_141793-4891.jpg?ga=GA1.1.288537252.1741439925&semt=ais_hybrid");
+    background-size:cover;
+}
+#s8{
+    height:250px;
+    width:300px;
+    background-image: url("https://img.freepik.com/free-photo/half-top-view-tasty-cooked-potatoes-delicious-dish-with-greens-seasonings-dark-surface-dinner-cooking-meal-potato-dish_140725-101565.jpg?ga=GA1.1.288537252.1741439925&semt=ais_hybrid");
+    background-size:cover;
+}
+#bg #i3,#i4{
+    position:relative;
+    display:flex;
+    filter: blur(2.5px);
+}
+#bg p{
+    position:absolute; top:250px; left:200px; font-size:80px;
+    z-index:1;display:flex;
+    color:rgb(251, 251, 249);
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+
+
+    /* display: inline-block;
+    opacity: 0; 
+    transform: translateY(-50px); 
+    @keyframes fall {
+        from{
+          opacity: 0;
+          color:black;
+          transform: translateY(-50px);
+        }
+        to {
+          opacity: 1;
+          color:white;
+          transform: translateY(0px);
+        }
+    }
+    animation: fall 5s ease-in  2s 1 normal; */
+}
+#outer2{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.category{
+    height:60px; width:1000px; background-color:rgb(102, 153, 153); border-radius:20px; text-align:center; position:relative; left:130px; font-size:35px
+}
+.category text{
+     text-align:center; line-height:60px;
+}
+.category:hover text{
+    font-size:38px;
+}
+.inn{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    height:350px;
+    width:1000px;
+    position:relative;
+    left:130px;
+}
+.recipe{
+    height:350px;
+    width:300px;
+    display:flex;
+    flex-direction:column;
+    border:2px solid black;
+    text-align:center;
+   
+}
+.image{
+    height:300px;
+    width:300px;
+    background-size:auto;
+
+}
+.recipe a,img{
+   height:300px;
+   width:300px;
+   object-fit:cover;
+}
+#T1 a,#T2 a,#T3 a,#T4 a,#T5 a,#T6 a,#T7 a,#T8 a,#T9 a{
+    text-decoration:none;
+    color:black;
+    position: sticky;
+}
+#I1:hover, #I2:hover, #I3:hover {
+    position: relative;
+    /* border:5px solid black;  */
+     height:360px;
+    width:300px; 
+}
+ .image:hover img{
+   width:300px;
+    transition:img 0.5s ease-in-out;
+ }
+ .recipe:hover a{
+    position:relative;
+    margin-bottom:center;
+    font-size:20px;
+   
+ }
+ /* #text text{
+    transition: font-size 5s ease-in-out 2s;
+ } */
