@@ -110,16 +110,16 @@
     font-size: 60px;
 }
 .itemRow{
-    height:400px;
-   
+    height:35%;
+   width:97%;
     margin: 0px 20px 0px 20px;
     display: flex;
     justify-content: space-between;
 
 }
 .col{
-    height:400px;
-    width:265px;
+    height:95%;
+    width:22%;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -128,14 +128,14 @@
 
 }
 .par1{
-    height:50px;
-    width:250px;
+    height:15%;
+    width:95%;
     font-size: 25px;
     font-weight: bold;
 }
 .par3{
-    height: 30px;;
-    width:300px;
+    height: 10%;
+    width:95%;
     font-size: 15px;
     color:blue;
 }
@@ -143,30 +143,30 @@
     color:#0f1111;
 }
 .par2{
-    height:300px;
-    width:300px;
+    height:75%;
+    width:95%;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .iRow1 , .iRow2{
-    height:130px;
-    width:300px;
+    height:50%;
+    width:100%;
     display:flex;
     padding:10px;
 
 }
 .item1, .item2 , .item3 , .item4{
-    height:130px;
-    width:130px;
+    height:100%;
+    width:90%;
     display:flex;
     flex-direction: column;
     justify-content:center;
     align-items:center;
 }
 .it1img, .it2img, .it3img, .it4img{
-    height: 100px;
+    height: 100%;
     width: 130px;
     
 } 
@@ -185,7 +185,6 @@
 }
 
 
-
 .outer2{
     display:flex;
     width:100%;
@@ -193,11 +192,13 @@
     background-color: #e6e6e7;
 }
 .sRow{
-    height:250px;
-    width:1210px;
+    height:20%;
+    width:94%;
     display:flex;
-    flex-direction:column;padding:20px;
+    flex-direction:column;
     background-color: white;
+   margin:0px 20px 0px 20px;
+    padding:20px;
 }
 
 .sRowtxt{
@@ -205,21 +206,24 @@
     width:100%;
 }
 .sRowdiv{
-    height:200px;
-    width:1210px;
+    height:100%;
+    width:100%;
     display:flex;
-    justify-content:space-between;
+    justify-content:space-between;  
     
 
 }
-    
+
+.sRowitems{
+width:17%;
+}
+
 .sRowdiv img{
     height:200px;
-    width:190px;
+    width:100%;
     background-size: cover;
     
 }
-
 
 .h1{
     font-size: 25px;
